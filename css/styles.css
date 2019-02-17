@@ -353,8 +353,10 @@ nav h1 a {
 
 @media only screen and (min-width: 1000px) {
   #restaurants-list li {
+    max-width: 300px;
+  }
+  .flex-container {
     display: flex;
     flex-direction: row;
-    max-width: 300px;
   }
 }
