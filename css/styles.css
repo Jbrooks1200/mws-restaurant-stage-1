@@ -274,7 +274,7 @@ nav h1 a {
   color: #666;
 }
 
-
+/* ----- Media Querys ----- */
 @media only screen and (max-width: 749px) {
   #restaurants-list li {
     max-width: 100%;
@@ -352,7 +352,9 @@ nav h1 a {
 }
 
 @media only screen and (min-width: 1000px) {
-  #restaurants-list li {
+  #restaurants-list li 
+    display: flex;
+    flex-wrap: wrap;
     max-width: 300px;
   }
 }
