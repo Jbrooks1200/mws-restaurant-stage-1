@@ -358,6 +358,11 @@ nav h1 a {
   #restaurants-list li {
     max-width: 300px;
   }
+	
+    .inside #maincontent {
+    display: flex;
+    flex-wrap: wrap;
+  }
 /*
   .flex-container {
     display: flex;
