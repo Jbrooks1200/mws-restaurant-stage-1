@@ -355,7 +355,7 @@ nav h1 a {
   #restaurants-list li {
     max-width: 300px;
   }
-  .flex-container {
+  .flex-container li {
     display: flex;
     flex-direction: row;
     justify-content: center;
